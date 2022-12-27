@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 40px;
+   
+
+    flex-direction: row;
+    justify-content: space-between;
+   
+    font-size: 16px;
+   padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+header .sign{
+    display: flex;
+    
+    flex-direction: row;
+    
+}
+
+header  p{
+    margin:20px;
+   
+}
+.container .sign p{
+    cursor: pointer;
+}
+
+.container .singnUp{
+    margin: 100px;
+   margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.container .singnUp h1{
+
+  
+    margin-bottom: 20px;
+}
+
+
+.container .singnUp .inputs{
+    display: flex;
+
+    margin-top: 20px;
+
+    height: 40px;
+    border-bottom: 1px solid white;
+}
+.container .singnUp .inputs p{
+    width: 200px;
+}
+.container .singnUp .inputs input{
+    background-color: transparent;
+    color: white;
+    height: 20px;
+    width: 400px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+}
+
+.container .singnUp button{
+    margin-top: 20px;
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container .singnUp #message{
+    margin-top: 15px;
+}

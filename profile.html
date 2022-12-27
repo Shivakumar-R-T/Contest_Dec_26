@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./profile.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <p>Header</p>
+            </div>
+            <div class="sign">
+                <p onclick="getDetails()" class="signin">SignUp</p>
+                <p class="prof">Profile</p>
+            </div>
+
+        </header>
+
+        <div class="details">
+            <h1>Profile</h1>
+            <div class="profile-detail">
+                <div ><p>Full Name</p>: <span class="Pname"></span> </div>
+                <div ><p>Email</p>: <span class="Pmail"></span></div>
+                <div ><p>PassWord</p>:<span class="Ppassword"></span></div>
+            </div>
+        </div>
+        <div class="button">
+            <button onclick="Logout()">Logout</button>
+        </div>
+    </div>
+    <script src="./profile.js"></script>
+</body>
+
+</html>
